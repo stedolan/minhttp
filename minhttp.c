@@ -1,4 +1,4 @@
-#include <sys/sendfile.h> /*               _       _   _ _____ _____ ____     */
+                          /*               _       _   _ _____ _____ ____     */
 #include   <sys/socket.h> /*     _ __ ___ (_)_ __ | | | |_   _|_   _|  _ \    */
 #include   <netinet/ip.h> /*    | '_ ` _ \| | '_ \| |_| | | |   | | | |_) |   */
 #include     <sys/time.h> /*    | | | | | | | | | |  _  | | |   | | |  __/    */
@@ -39,4 +39,4 @@ N;fork()&&--i;);i||pause();g:c=accept(s,A,(void*)q);{struct timeval i={5};O(D);O
 "\r\n","%s","<html><",M)*h=0;S("head><title>Index of %s</title></head><body>",x)
 S("<h1>%s</h1>",x)for(v=opendir(y);w=readdir(v);){y=w->d_name;S("<a href=\"%s\""
 ">",y)S("%s</a><br>",y)}closedir(v);S("</body></html>",h))fstat(d,&t);}R("200 O"
-"K\r\n","Content-Length: %d","",(int)t.st_size)}I(1,while(sendfile(c,d,0,X)>0))}
+"K\r\n","Content-Length: %d","",(int)t.st_size)}I(1,while(sendfile(c,d,0,X,0,0)>0))}
