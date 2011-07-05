@@ -1,6 +1,6 @@
 #include <sys/sendfile.h> /*               _       _   _ _____ _____ ____     */
 #include   <sys/socket.h> /*     _ __ ___ (_)_ __ | | | |_   _|_   _|  _ \    */
-#include   <netinet/ip.h> /*    | '_ ` _ \| | '_ \| |_| | | |   | | | |_) |   */
+#include   <netinet/in.h> /*    | '_ ` _ \| | '_ \| |_| | | |   | | | |_) |   */
 #include     <sys/time.h> /*    | | | | | | | | | |  _  | | |   | | |  __/    */
 #include     <sys/stat.h> /*    |_| |_| |_|_|_| |_|_| |_| |_|   |_| |_|       */
 #include       <unistd.h> /*   A tiny and surprisingly featureful webserver   */
